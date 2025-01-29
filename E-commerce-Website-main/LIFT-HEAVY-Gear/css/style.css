@@ -1,0 +1,195 @@
+/* Reset di base */
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo del documento */
+body {
+    background-color: #222;
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    min-height: 100%;
+}
+
+body svg {
+    color: #fff;
+    fill: none;
+    width: 24px;
+    height: 24px;
+}
+
+/* Stile generale dei titoli */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arimo';
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Arimo';
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+h3 {
+    font-family: 'Arimo';
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* Header */
+header {
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 115px;
+    padding: 8px 5%;
+}
+
+header svg {
+    color: #fff;
+    display: block;
+    align-items: center;
+}
+
+/* Main */
+main {
+    background: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+main>img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 0 5%;
+}
+
+/* Form per login e registrazione */
+form {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+form a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: text;
+}
+
+form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .checkbox-label {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    cursor: pointer;
+}
+
+form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #000000;
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+form .checkbox-label span {
+    line-height: 20px;
+}
+
+main section img {
+    display: block;
+    margin: 0 auto 30px;
+    width: 50%;
+    max-width: 360px;
+    height: auto;
+}
+
+/* Bottone di login */
+button {
+    background-color: #526FFF;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #5370ff;
+}
+
+/* Aside */
+aside {
+    background: #222;
+    border-top: #fff;
+    border-top: solid;
+    color: #fff;
+    text-align: center;
+    padding: 50px 5%;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    padding: 0 5%;
+
+}
+
+footer>section {
+    padding: 10px 0;
+}
+
+/* Media Queries per Desktop */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #222;
+    }
+
+    footer>section {
+        padding: 10px 0;
+        margin: 0 5%;
+    }
+    
+}
